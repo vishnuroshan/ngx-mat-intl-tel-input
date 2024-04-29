@@ -3,9 +3,9 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "ngx-mat-intl-tel-input": {
-      "root": "projects/ngx-mat-intl-tel-input",
-      "sourceRoot": "projects/ngx-mat-intl-tel-input/src",
+    "ngx-mat-phone-input": {
+      "root": "projects/ngx-mat-phone-input",
+      "sourceRoot": "projects/ngx-mat-phone-input/src",
       "projectType": "library",
       "prefix": "lib",
       "schematics": {
@@ -21,32 +21,29 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "tsConfig": "projects/ngx-mat-intl-tel-input/tsconfig.lib.json",
-            "project": "projects/ngx-mat-intl-tel-input/ng-package.json"
+            "tsConfig": "projects/ngx-mat-phone-input/tsconfig.lib.json",
+            "project": "projects/ngx-mat-phone-input/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-mat-intl-tel-input/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-mat-phone-input/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
-            "tsConfig": "projects/ngx-mat-intl-tel-input/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-mat-intl-tel-input/karma.conf.js"
+            "polyfills": ["zone.js", "zone.js/testing"],
+            "tsConfig": "projects/ngx-mat-phone-input/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-mat-phone-input/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "lintFilePatterns": [
-              "projects/ngx-mat-intl-tel-input/**/*.ts",
-              "projects/ngx-mat-intl-tel-input/**/*.html"
+              "projects/ngx-mat-phone-input/**/*.ts",
+              "projects/ngx-mat-phone-input/**/*.html"
             ]
           }
         }
@@ -127,10 +124,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "projects/ngx-mat-intl-tel-input-tester/tsconfig.spec.json",
             "karmaConfig": "projects/ngx-mat-intl-tel-input-tester/karma.conf.js",
             "assets": [

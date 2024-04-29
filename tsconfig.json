@@ -21,12 +21,8 @@
       "dom"
     ],
     "paths": {
-      "ngx-mat-intl-tel-input": [
-        "dist/ngx-mat-intl-tel-input"
-      ],
-      "ngx-mat-intl-tel-input/*": [
-        "dist/ngx-mat-intl-tel-input/*"
-      ]
+      "ngx-mat-phone-input": ["dist/ngx-mat-phone-input"],
+      "ngx-mat-intl-tel-input/*": ["dist/ngx-mat-intl-tel-input/*"]
     }
   },
   "angularCompilerOptions": {
