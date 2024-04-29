@@ -1,6 +1,6 @@
 {
   "name": "ngx-mat-phone-input",
-  "version": "3.8.0",
+  "version": "3.9.0",
   "peerDependencies": {
     "@angular/common": ">=14.x",
     "@angular/core": ">=14.x",

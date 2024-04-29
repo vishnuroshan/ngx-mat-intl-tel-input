@@ -196,7 +196,7 @@ export class CountryCode {
     ["Mauritania (‫موريتانيا‬‎)", "mr", "222"],
     ["Mauritius (Moris)", "mu", "230"],
     ["Mayotte", "yt", "262", 1],
-    ["Mexico (México)", "mx", "52"],
+    ["Mexico", "mx", "52"],
     ["Micronesia", "fm", "691"],
     ["Moldova (Republica Moldova)", "md", "373"],
     ["Monaco", "mc", "377"],
